@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Start */
+.header {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+button {
+  background-color: #ee6268;
+  border: none;
+  font-weight: 600;
+  font-size: medium;
+  border-radius: 50px;
+  padding: 0px 20px;
+  color: white;
+  height: 45px;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+
+.navbar a:hover {
+  background-color: #2386fe;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #f2858c;
+}
+
+/* Header End */
+
+/* Landing Page Start */
+
+.landing-page {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+  width: 600px;
+}
+
+.landing-page-search input {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.landing-page-search button {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+}
+
+.landing-page-image-container img {
+  border-radius: 20px;
+  width: 300px;
+}
+/* Landing Page End */
+
+/* Trending Games Start */
+
+.trending-container {
+  padding: 25px 50px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trending-header h1 {
+  margin: 0;
+}
+
+.trending-container span {
+  color: #ee6268;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 40px;
+}
+
+.trending-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.card {
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.card .card-image {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+}
+
+.card-info img {
+  width: 50px;
+  border-radius: 20px;
+}
+
+/* Trending Games End */
+
+/* Most Played Games Start */
+
+.most-container {
+  padding: 50px;
+  background-color: #eeeeee;
+  height: 100%;
+  margin-top: 200px;
+  border-radius: 100px;
+}
+
+.most-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.most-header h1 {
+  margin: 0;
+}
+
+.most-container span {
+  color: #ee6268;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 40px;
+}
+
+.most-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.most-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.most-card-image {
+  border-radius: 20px;
+}
+
+.most-card-info,
+.most-card-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.most-card-name p {
+  color: gray;
+}
+
+/* Most Played Games End */
+
+/* Top Categories Start */
+
+.category-container span {
+  color: #ee6268;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  padding: 0 0 40px;
+  margin-bottom: 5px;
+  margin-top: 150px;
+  letter-spacing: 1px;
+}
+
+.category-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.category-container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #333;
+}
+
+.category-container h1,
+.category-container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-card-img img {
+  border-radius: 15px;
+}
+
+.category .card .cardImg {
+  position: relative;
+  top: -20px;
+}
+
+.category-card .genre {
+  background-color: #0171f9;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0 30px 0;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 20px 20px 0 0;
+}
+
+.genre {
+  text-align: center;
+  padding: 20px 0;
+  background: #007bff;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 100%;
+}
+
+.category-card {
+  width: 235px;
+  margin-left: 15px;
+  margin-right: 10px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 2);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.category-card-img {
+  width: 100%;
+}
+
+.category-card-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -5px;
+}
+
+.genre .category-card-name {
+  width: 100%;
+  text-align: center;
+}
+
+.category-card:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0, 4);
+}
+
+/* Top Categories End */
+
+/* Footer Start */
+
+.footer-container {
+  background-color: #007bff;
+  height: 150px;
+  border-radius: 100px 100px 0 0;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: large;
+}
+
+.form-container {
+  display: flex;
+  padding: 40px;
+  margin: auto;
+  justify-content: center;
+  max-width: 1300px;
+}
+
+.form-container form {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 400px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 450px;
+}
+
+.form-container form input {
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-size: large;
+  height: 50px;
+  border-radius: 59px;
+}
+
+.form-container textarea {
+  border-radius: 20px;
+  padding-top: 10px;
+  resize: none;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: large;
+  font-weight: 500;
+}
+/* Footer End */
