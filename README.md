@@ -1,7 +1,11 @@
 # Lugx-Store
-This A Website Made With HTML & CSS To Help People Buy Games Online and This Project Was Made To Apply To Html & Css Course and This Is A Personal Project.
 
-## Project Features
-This Website Is So Easy To Use And It Has A Simpel Colors To Make Your Eyes Good And To help You To Stay Comfortabel
-This Website Is Very Good To Do After Complete HTML & CSS Course 
+This is a website built with **HTML & CSS** to help people buy games online. This project was created as a personal practice to apply what I learned in my HTML & CSS course.
 
+---
+
+## 🚀 Project Features
+
+* **Easy to Use:** The website features a simple and user-friendly interface.
+* **Eye-Friendly Design:** It uses a simple, pleasant color palette that is comfortable for the eyes during long browsing sessions.
+* **Great Practice:** A perfect project to work on after completing an HTML & CSS course.
